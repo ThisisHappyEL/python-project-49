@@ -1,4 +1,6 @@
 from .cli import welcome_user
 
-def main ():
+
+def main():
+
     welcome_user()
