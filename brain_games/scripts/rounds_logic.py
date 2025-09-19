@@ -16,7 +16,9 @@ def rounds_logic(generate_game_stage, game_description):
         if (player_answer == str(correct_answer)):
             print('Correct!')
         else:
-            print(f"'{player_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {player_name}!")
+            print((f"'{player_answer}' is wrong answer ;(. "
+                   f"Correct answer was '{correct_answer}'.\n"
+                   f"Let's try again, {player_name}!"))
             return 'Defeat'
     
     return print(f'Congratulations, {player_name}!')

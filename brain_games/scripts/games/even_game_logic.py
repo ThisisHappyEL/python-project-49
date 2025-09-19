@@ -13,7 +13,8 @@ def generate_game_stage():
 
 
 def even_game():
-    game_description = 'Answer "yes" if the number is even, otherwise answer "no".'
+    game_description = ('Answer "yes" if the number is even,'
+                        'otherwise answer "no".')
 
     if rounds_logic(generate_game_stage, game_description) == 'Defeat':
         return
