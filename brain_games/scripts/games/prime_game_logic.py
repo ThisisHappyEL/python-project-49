@@ -25,7 +25,7 @@ def generate_game_stage():
 
 def prime_game():
     game_description = ('Answer "yes" if given number is prime.'
-                        'Otherwise answer "no".')
+                        ' Otherwise answer "no".')
 
     if rounds_logic(generate_game_stage, game_description) == 'Defeat':
         return
