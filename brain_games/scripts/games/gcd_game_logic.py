@@ -17,7 +17,7 @@ def generate_game_stage():
     second_number = generate_number(0, 100)
 
     question = f'{first_number} {second_number}'
-    correct_answer = determinantGCD(first_number, second_number)
+    correct_answer = determinant_gcd(first_number, second_number)
 
     return question, correct_answer
 
