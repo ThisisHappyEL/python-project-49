@@ -5,7 +5,9 @@
 [![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=ThisisHappyEL_python-project-49)
 
 Данный репозиторий представляет собой результат выполнения первой проектной работы по языку программировния Python на платформе "Хекслет"
-В нём содержится 5 простых математических игр. Взаимодействие с игроком происходит через терминал редактора кода с помощью сторонней библиотеки "prompt"
+
+В нём содержится 5 простых математических игр.
+Взаимодействие с игроком происходит через терминал редактора кода с помощью сторонней библиотеки "prompt"
 
 Ниже представлена работа вышеуказанных 5 игр, записанных с помощью сервиса Asciinema:
 
@@ -18,7 +20,7 @@
 Третья игра - Наибольший Общий Делитель
 [![asciicast](https://asciinema.org/a/82UuNBHwlo3wDKKRv71orP3Rm.svg)](https://asciinema.org/a/82UuNBHwlo3wDKKRv71orP3Rm)
 
-Четвёртая игра - 
+Четвёртая игра - Арифметическая прогрессия
+[![asciicast](https://asciinema.org/a/1FfGpRDlG6l0iKpHXWLBIWIHG.svg)](https://asciinema.org/a/1FfGpRDlG6l0iKpHXWLBIWIHG)
 
 Пятая игра - 
-
