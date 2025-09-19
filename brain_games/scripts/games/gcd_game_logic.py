@@ -19,7 +19,6 @@ def generate_game_stage():
     question = f'{first_number} {second_number}'
     correct_answer = determinantGCD(first_number, second_number)
 
-    print(f'Текущий верный ответ - {correct_answer}')
     return question, correct_answer
 
 def gcd_game():

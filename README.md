@@ -23,4 +23,5 @@
 Четвёртая игра - Арифметическая прогрессия
 [![asciicast](https://asciinema.org/a/1FfGpRDlG6l0iKpHXWLBIWIHG.svg)](https://asciinema.org/a/1FfGpRDlG6l0iKpHXWLBIWIHG)
 
-Пятая игра - 
+Пятая игра - Проверка числа на простоту
+[![asciicast](https://asciinema.org/a/GucJcBEmjP7bETxcFqlQv9MU6.svg)](https://asciinema.org/a/GucJcBEmjP7bETxcFqlQv9MU6)
