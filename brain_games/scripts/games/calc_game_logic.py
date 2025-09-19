@@ -12,7 +12,7 @@ def sign_generated() -> str:
     else:
       return '*'
   
-def math_result(first_int, operand, second_int):
+def math_result(first_int: int, operand: str, second_int: int) -> int:
     if operand == '-':
        return first_int - second_int
     if operand == '+':
@@ -21,14 +21,13 @@ def math_result(first_int, operand, second_int):
        return first_int * second_int
     
 def generate_game_stage():
-    first = generate_number(0, 10)
-    second = generate_number(0, 10)
+    first_number = generate_number(0, 10)
+    second_number = generate_number(0, 10)
     sign = sign_generated()
 
-    question = f'{first} {sign} {second}'
-    correct_answer = math_result(first, sign, second)
+    question = f'{first_number} {sign} {second_number}'
+    correct_answer = math_result(first_number, sign, second_number)
 
-    print (f'Текущий правильный ответ - это {correct_answer}')
     return question, correct_answer
 
 def calc_game():

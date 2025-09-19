@@ -12,9 +12,11 @@
 Первая игра - проверка на чётность
 [![asciicast](https://asciinema.org/a/pGH2y1s9k74eXA4Wh3laxToYe.svg)](https://asciinema.org/a/pGH2y1s9k74eXA4Wh3laxToYe)
 
-Вторая игра - 
+Вторая игра - калькулятор
+[![asciicast](https://asciinema.org/a/YyOxepCWkzUnm53rCvLGIu6oH.svg)](https://asciinema.org/a/YyOxepCWkzUnm53rCvLGIu6oH)
 
-Третья игра -
+Третья игра - Наибольший Общий Делитель
+[![asciicast](https://asciinema.org/a/82UuNBHwlo3wDKKRv71orP3Rm.svg)](https://asciinema.org/a/82UuNBHwlo3wDKKRv71orP3Rm)
 
 Четвёртая игра - 
 
