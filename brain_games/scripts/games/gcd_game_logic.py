@@ -1,5 +1,6 @@
-from brain_games.scripts.utils import generate_number
 from brain_games.scripts.rounds_logic import rounds_logic
+from brain_games.scripts.utils import generate_number
+
 
 def determinant_gcd(first_number: int, second_number: int) -> int:
     most_bigger_number = first_number if first_number > second_number else second_number
@@ -20,6 +21,7 @@ def generate_game_stage():
     correct_answer = determinant_gcd(first_number, second_number)
 
     return question, correct_answer
+
 
 def gcd_game():
     game_description = 'Find the greatest common divisor of given numbers.'

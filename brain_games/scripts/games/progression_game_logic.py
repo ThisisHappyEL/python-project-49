@@ -1,5 +1,6 @@
-from brain_games.scripts.utils import generate_number
 from brain_games.scripts.rounds_logic import rounds_logic
+from brain_games.scripts.utils import generate_number
+
 
 def generate_game_stage():
     question = []
@@ -14,7 +15,9 @@ def generate_game_stage():
     current_answer = question[random_space]
     question[random_space] = '..'
 
-    return question, current_answer
+    question_str_list = [str(item) for item in question]
+    return ' '.join(question_str_list), current_answer
+
 
 def progression_game():
     game_description = 'What number is missing in the progression?'

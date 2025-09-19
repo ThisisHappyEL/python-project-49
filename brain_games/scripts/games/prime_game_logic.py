@@ -1,5 +1,6 @@
-from brain_games.scripts.utils import generate_number
 from brain_games.scripts.rounds_logic import rounds_logic
+from brain_games.scripts.utils import generate_number
+
 
 def is_prime_number(number: int) -> bool:
     if number < 2:
@@ -14,6 +15,7 @@ def is_prime_number(number: int) -> bool:
         if number % i == 0:
             return False
     return True
+
 
 def generate_game_stage():
     number = generate_number(0, 100)

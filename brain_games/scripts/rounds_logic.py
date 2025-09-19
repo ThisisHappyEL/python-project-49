@@ -1,5 +1,7 @@
-from brain_games.cli import welcome_user
 import prompt
+
+from brain_games.cli import welcome_user
+
 
 def rounds_logic(generate_game_stage, game_description):
     player_name = welcome_user()
