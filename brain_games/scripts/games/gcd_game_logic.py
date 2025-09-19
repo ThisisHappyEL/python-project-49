@@ -9,13 +9,12 @@ def determinant_gcd(first_number: int, second_number: int) -> int:
     for i in range(half_bigger_number, 0, -1):
         if (first_number % i == 0 and second_number % i == 0):
             return i
-        else:
-            return 1
+    return 1
         
 
 def generate_game_stage():
-    first_number = generate_number(0, 100)
-    second_number = generate_number(0, 100)
+    first_number = 96
+    second_number = 62
 
     question = f'{first_number} {second_number}'
     correct_answer = determinant_gcd(first_number, second_number)
