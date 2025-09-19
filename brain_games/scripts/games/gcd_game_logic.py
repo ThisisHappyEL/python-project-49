@@ -1,7 +1,7 @@
 from brain_games.scripts.utils import generate_number
 from brain_games.scripts.rounds_logic import rounds_logic
 
-def determinantGCD(first_number: int, second_number: int) -> int:
+def determinant_gcd(first_number: int, second_number: int) -> int:
     most_bigger_number = first_number if first_number > second_number else second_number
     half_bigger_number = most_bigger_number // 2
 

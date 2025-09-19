@@ -5,7 +5,7 @@ def rounds_logic(generate_game_stage, game_description):
     player_name = welcome_user()
     print(game_description)
 
-    for i in range(3):
+    for _ in range(3):
         question, correct_answer = generate_game_stage()
 
         print(f'Question {question}')
